@@ -6,10 +6,10 @@
   </head>
   <body>
   
-    <div>
-      <a href="index.html">Home</a>
-      <a href="tags.html">HTML Tags</a>
-      <a href="moby_dick.html">Moby Dick</a>
+    <div style="text-align: right; color: blue;">
+      <a href="index.html" style="text-decoration: none;">Home</a>
+      <a href="tags.html" style="margin-left: 10px; text-decoration: none;">HTML Tags</a>
+      <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none;">Moby Dick</a>
     </div>
   
     <h1>Important HTML tags</h1>
@@ -87,6 +87,12 @@
         <td><code>li</code></td>
         <td>list item</td>
         <td>include list item</td>
+      </tr>
+      <tr>
+        <td><code>blockquote</code></td>
+        <td>quotation</td>
+        <td>include a formatted quote</td>
+      </tr>
     </table>
     
     <h2>Inline Elements</h2>
@@ -149,9 +155,11 @@
       <tr>
         <td><code>span</code></td>
         <td>span</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Define line-level section for styling</td>
+        <td>
+          <code>&lt;span style="color: red;"&gt;Call me Ishmael.&lt;/span&gt;</code>
+        </td>
+        <td><span style="color: red;">Call me Ishmael.</span></td>
       </tr>
       <!-- <tr>
         <td><code>li</code></td>
@@ -159,7 +167,42 @@
         <td></td>
         <td></td>
         <td></td>
-      </tr> -->
+      </tr> -->  
+    </table>
+    
+    <h2>Document Tags</h2>
+    
+    <table>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td><code>html</code></td>
+        <td>HTML (top level tag)</td>
+        <td>encapsulates the whole HTML document</td>
+      </tr>
+      <tr>
+        <td><code>head</code></td>
+        <td>head section</td>
+        <td>container for non-visible data</td>
+      </tr>
+      <tr>
+        <td><code>body</code></td>
+        <td>body section</td>
+        <td>container for visible content</td>
+      </tr>
+      <tr>
+        <td><code>title</code></td>
+        <td>page title</td>
+        <td>non-visible data on page title</td>
+      </tr>
+      <tr>
+        <td><code>meta</code></td>
+        <td>metadata</td>
+        <td>void element (self-closing) tag with page metadata</td>
+      </tr>
     </table>
   </body>
 </html>
